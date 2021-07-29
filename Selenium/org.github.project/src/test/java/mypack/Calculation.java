@@ -7,10 +7,10 @@ public class Calculation {
 	@Test
 	public void addition() 
 	{
-		int x=1000;
-		int y=5000;
+		int x=100;
+		int y=500;
 		int z=x+y;
-		System.out.println("output is :" + z);
+		System.out.println("sum of numbers is :" + z);
 
 	}
 
