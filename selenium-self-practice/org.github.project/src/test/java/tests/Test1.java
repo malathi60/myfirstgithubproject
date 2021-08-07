@@ -11,8 +11,8 @@ public class Test1
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com");
-		String y=driver.getCurrentUrl();
-		System.out.println(y);
+		String z=driver.getCurrentUrl();
+		System.out.println(z);
 		system.out.println(driver.getTitle());
 		
 	}
